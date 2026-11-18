@@ -1,0 +1,50 @@
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Local macOS/Streamlit temp caches
+Library/
+.streamlit/credentials.toml
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
